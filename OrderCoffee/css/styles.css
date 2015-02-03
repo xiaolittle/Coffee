@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 700px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+  color: white;
+  background: white;
+  /*
+   hyperlink style 
+   */
+}
+body a {
+  color: white;
+  text-decoration: none;
+}
+body header {
+  z-index: 1;
+  display: block;
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px double #B29980;
+}
+body header div {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+body header ul {
+  height: 100px;
+  font-family: 'Papyrus';
+}
+body header ul li {
+  position: absolute;
+  height: 120px;
+  display: inline;
+  line-height: 100px;
+  font-size: 35px;
+  font-style: italic;
+}
+body header ul #title-coffe {
+  left: 110px;
+}
+body header ul #title-price {
+  right: 0px;
+  width: 150px;
+}
+body h1,
+body h2 {
+  font-weight: normal;
+  margin: 0px;
+}
+body h1 {
+  height: 400px;
+}
+body h1 img {
+  margin-top: 20px;
+  height: 313px;
+  width: 369px;
+}
+body li {
+  font-size: 16px;
+  line-height: 16px;
+}
+body ul {
+  list-style-type: none;
+  padding: 0;
+  -webkit-padding-start: 0px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+body div.coffee-info section {
+  background-color: white;
+  color: black;
+}
+body div.coffee-info section.coffee-header {
+  position: relative;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  /* Remember to add a header*/
+  margin-top: 20px;
+  height: 400px;
+  border-bottom: 1px solid black;
+}
+body div.coffee-info section.nutrition {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+body div.coffee-info section.nutrition ul.nutrition-list {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body div.coffee-info section.nutrition ul.nutrition-list li {
+  height: 26px;
+}
+body div.coffee-info section.nutrition ul.nutrition-list li ul li {
+  position: relative;
+  float: left;
+  width: 50%;
+  line-height: 26px;
+}
+body div.coffee-info section.nutrition ul.nutrition-list li ul li:nth-child(1) {
+  text-align: center;
+}
+body div.coffee-info section.nutrition ul.nutrition-list li ul li:nth-child(2) {
+  text-align: center;
+}
+body div.coffee-info section.nutrition ul.nutrition-list li ul li:nth-child(2) img {
+  margin-top: 5px;
+  height: 20px;
+  width: 20px;
+}
+body div.coffee-info section.coffee-order {
+  width: 100%;
+}
+body div.coffee-info section.coffee-order ul.order-button {
+  margin: auto;
+  width: 300px;
+  height: 120px;
+}
+body div.coffee-info section.coffee-order ul.order-button li {
+  display: inline;
+  width: 100px;
+  height: 120px;
+  line-height: 120px;
+}
+body div.coffee-info section.coffee-order div {
+  height: 80px;
+  width: 80px;
+}
+body div.coffee-info section.coffee-order img {
+  height: 80px;
+  width: 80px;
+}
+body div.coffee-info section.coffee-details {
+  position: relative;
+  width: 100%;
+  padding-bottom: 60px;
+}
+body div.coffee-info section.coffee-details p {
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+body div.coffee-info section.coffee-details p.intro-title {
+  font-size: 20px;
+}
+body .menu {
+  position: relative;
+}
+body .menu ul {
+  position: relative;
+}
+body .menu ul.coffee-menu {
+  top: 100px;
+}
+body .menu ul li {
+  margin: 5px;
+  height: 100px;
+}
+body .menu ul li ul li {
+  position: absolute;
+  height: 100px;
+}
+body .menu ul li ul li:nth-child(1) {
+  left: 0px;
+  width: 86px;
+  height: 83px;
+}
+body .menu ul li ul li:nth-child(1) img {
+  height: 80px;
+  width: 80px;
+}
+body .menu ul li ul li:nth-child(1) div {
+  padding: 6px;
+  height: 84px;
+  width: 84px;
+}
+body .menu ul li ul li:nth-child(2) {
+  left: 88px;
+  right: 150px;
+}
+body .menu ul li ul li:nth-child(2) div {
+  padding-left: 16px;
+}
+body .menu ul li ul li:nth-child(2) div.coffee-name {
+  margin-top: 19px;
+  font-size: 24px;
+}
+body .menu ul li ul li:nth-child(2) div.italy-name {
+  margin-top: 15px;
+  font-size: 15px;
+}
+body .menu ul li ul li:nth-child(3) {
+  top: 8px;
+  right: 0px;
+  width: 150px;
+  line-height: 100px;
+  font-size: 65px;
+  font-family: 'HelveticaNeue-UltraLight', Helvetica, Arial, Sans-Serif;
+}
+body .menu ul li ul li:nth-child(3) table {
+  height: 84px;
+  width: 100%;
+}
+body .menu ul li ul li:nth-child(3) table td {
+  width: 33%;
+}
+/*
+ * Color for the Menu Page
+ */
+.is-menu {
+  background-image: url("../images/coffee-bcg7.jpg");
+  background-attachment: fixed;
+}
+.menu-list {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #B29980;
+  border-radius: 10px;
+}
+.is-menu-detail ul.today-overview,
+.is-menu-detail li.nutrition-entry,
+.is-menu-detail section.today,
+.is-menu-detail section.coffee-order,
+.is-menu-detail p.coffee-summary {
+  border-bottom: 1px solid #b6c0c9;
+}
+.is-menu-detail.today-details,
+.is-menu-detail nav {
+  border-top: 1px solid #b6c0c9;
+}
+.is-menu-detail ul.today-overview li:nth-child(2),
+.is-menu-detail ul.today-overview li:nth-child(4) {
+  color: #b6c0c9;
+}
+nav {
+  position: fixed;
+  height: 42px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+nav.is-menu-detail {
+  background: #8b4513;
+}
+nav div {
+  position: absolute;
+  font-size: 25px;
+  height: 42px;
+}
+nav div.disabled {
+  opacity: 0.5;
+}
+nav div.next-prev-nav {
+  width: 120px;
+  left: 50%;
+  margin-left: -60px;
+  padding-top: 10px;
+  opacity: 0.9;
+}
+nav div.next-prev-nav div {
+  font-size: 14px;
+}
+nav div.next-prev-nav .prev-button {
+  left: 0px;
+  width: 20px;
+}
+nav div.next-prev-nav .indicator-dots {
+  left: 30px;
+  right: 30px;
+  text-align: center;
+}
+nav div.next-prev-nav .indicator-dots span {
+  opacity: 0.5;
+}
+nav div.next-prev-nav .indicator-dots span.current {
+  opacity: 1;
+}
+nav div.next-prev-nav .next-button {
+  right: 0px;
+  width: 20px;
+  text-align: right;
+}
+nav div.list-button {
+  right: 0px;
+  width: 30px;
+}

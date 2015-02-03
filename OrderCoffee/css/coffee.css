@@ -1,0 +1,195 @@
+* {
+    font-family: "HelveticaNeue-Light", Arial;
+    color: #4d4d4d;;
+}
+
+body {
+    margin: 0;
+}
+
+.grid {
+    text-align: left; 
+}
+
+#utilities {
+    //background-color: white;
+}
+
+#nav {
+    //background-color: white;
+    width: 100%;
+}
+
+.indexbody {
+    background-color: #B29980;
+}
+
+#utilities {
+    margin-bottom: 0;
+}
+
+#utilities ul {
+    padding: 0;
+    //background: none;
+    overflow: hidden;
+    margin-bottom: 0;
+    vertical-align: bottom;
+}
+
+#utilities li {
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+    //display: inline-block;
+    display: block;
+}
+
+#utilities li:first-child {
+    margin-right: 50px;
+    margin-top: 0;
+}
+
+#utilities a {
+    text-decoration: none;
+}
+/*
+.shopping-cart {
+    background-image: url("/Users/tudejian/Documents/course/268/OrderCoffee/images/shoppingbag.png");
+    background-repeat: no-repeat;
+    //background-color: none; 
+}
+.utility-list li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+#utilities .signin-page>a {
+    display: inline-block;
+    position: static;
+    border-top: none;
+    border-bottom: none;
+}
+*/
+.icons {
+    margin-top: 2px;
+    height: 36px;
+    width: 36px;
+    //text-align: center;
+    //vertical-align: bottom;
+}
+
+.icons-1 {
+    margin-top: 2px;
+    height: 60px;
+    width: 50px;
+    text-align: center;
+}
+
+#nav {
+    float: left;
+    clear: none;
+ //   margin-left: 26px;
+ //   margin-top: 12px;
+    position: relative;
+}
+
+#nav a {
+    text-decoration: none;
+}
+
+#nav .nav_menu {
+    margin-left: 0;
+    height: auto;
+    width: auto;
+    clear: both;
+    overflow: hidden;
+    transition: all 250ms cubic-bezier(.42, 0, .58. 1);
+}
+
+#nav ul {
+    padding: 0;
+    background: none;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+#nav li {
+    position: relative;
+    display: block;
+}
+
+#nav li {
+    //margin: 0 1px 0 0;
+    margin-left: 10px;
+    margin-right: 24px;
+    width: auto;
+}
+
+#nav li {
+    float: left;
+}
+
+.loginbody {
+    background-color: #B29980;
+}
+
+#coffeeapplogin h1 {
+    top: -120px;
+    width: 100%;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: #888;
+}
+
+#coffeeapplogin .login {
+    width: 350px;
+    margin: 45px auto 25px auto;
+}
+
+#coffeeapplogin .login h2 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#coffeeapplogin .login input {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+    width: 340px;;
+}
+
+#coffeeapplogin .login .signup-form {
+    margin-top: 25px;
+}
+
+#coffeeapplogin .login button {
+    padding: 5px 10px;
+    background: #eee;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-family: "Helvetica Neue";
+}
+
+#coffeeapplogin .login .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+
+#go-homepage {
+    text-align: center;
+}
+
+.contactbody {
+    background-color: #B29980;
+}

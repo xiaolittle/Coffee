@@ -2,54 +2,59 @@
 <html>
   <head>
   	<meta charset="utf-8">
-    <title>PCoffee App</title>
-    <link href="css/coffee.css" media="all" rel="stylesheet" type="text/css"/>
+    <title>Coffee HomePage</title>
+    <link href="css/styles.css" media="all" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
   </head>
 
-  <body class = "indexbody">
-    <div class = "grid">
-    	<div id = "header">
-    		<div id = "utilities">
+  <body class = "homepage">
+    <div class = "home-grid">
+    		<section>
+          <div class = "banner">
+          </div>
+        </section>
+        <section class = "utilities">
     			<ul class = "utility-list has-shopping-cart">
     				<li class = "logo">
-    					<span><img class = "icons-1" src = "images/lovecoffee.png"></span>
+    					<img class = "icon-logo" src = "images/lovecoffee.png">
     				</li>
     				<li class = "shopping-cart">
-    					<span><img class = "icons" src = "images/shoppingbag.png"></span>My Bag
+    					<span><img class = "icons" src = "images/shoppingbag.png"></span><a > My Bag </a>
     				</li>
     				<li class = "location">
-    					<span><img class = "icons" src = "images/location.png"></span>Location
+    					<span><img class = "icons" src = "images/location.png"></span><a >Location</a>
     				</li>
     				<li class = "signin-page">
     					<span><img class = "icons" src = "images/login.png"><a href="login.html"> Sign in</a>
     				</li>
     			</ul>
-    		</div>
-    		<div id="nav">
-				<div class="nav_menu">
-				<ul>
-					<li id="nav_coffee"><div class="null_left">
-
-					</div><strong>Coffee</strong><div class="null_right">
-					</div></li>
-					<li id="nav_menu"><div class="null_left">
-
-					</div><a class="tab" href="menulist.html"><strong>Menu</strong></a><div class="null_right">
-					</div></li>
-					<li id="nav_coffeehouse"><div class="null_left">
-
-					</div><strong>Coffeehouse</strong><div class="null_right">
-
-					</div></li>
-					<li id="nav_shop"><div class="null_left">
-
-					</div><a class="tab" href="contact.html"><strong>Shop</strong></a><div class="null_right">
-					</div></li>
-				</ul>
-				</div>
-			</div>
-		</div>
+    		</section>
+    		
+        <section class="nav-top">
+				  <ul>
+					  <li id="nav_coffee">
+              <a class="tab" href="menulist.html">
+              <strong>MENU</strong></a>
+            </li>
+					  <li id="nav_menu">
+              <strong>COFFEE</strong>
+            </li>
+					  <li id="nav_shop">
+              <a class="tab" href="contact.html"><strong>SHOP</strong></a>
+            </li>
+				  </ul>
+		    </section>
+        <section class = "today-rec">
+          <div>
+            Today's Recommendation
+          </div>
+          <div class = "photo-gallery">
+            <img src="images/ice-cream.jpg">
+          </div>
+        </section>
+        <section class = "today-activity">
+          More about coffee
+        </section>
     </div>
   </body>
 

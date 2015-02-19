@@ -1,107 +1,107 @@
 * {
     font-family: "HelveticaNeue-Light", Arial;
-    color: #4d4d4d;;
 }
 
 body {
     margin: 0;
+    padding: 0;
+    min-height: 750px;
+}
+
+body ul {
+  list-style-type: none;
+  padding: 0;
+  -webkit-padding-start: 0px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+body a {
+  color: black;
+  text-decoration: none;
 }
 
 .grid {
+    position: relative;
     text-align: left; 
-}
-
-#utilities {
-    //background-color: white;
-}
-
-#nav {
-    //background-color: white;
     width: 100%;
+    color: black;
 }
 
-.indexbody {
-    background-color: #B29980;
+.homepage {
+    //background-color: #B29980;
 }
 
 #utilities {
+    height: 100px;
+    background: white;
+    padding-top: 10px;
     margin-bottom: 0;
+}
+
+div.banner {
+    // background-color: red;
+    background-image: url("../images/coffee-banner.jpg");
+    height: 80px;
 }
 
 #utilities ul {
-    padding: 0;
-    //background: none;
-    overflow: hidden;
-    margin-bottom: 0;
+    top: 10px;    
+    height: 80px;
+    width: 100%;
+    border-left: 0px;
     vertical-align: bottom;
+    border-bottom: 1px solid black;
 }
 
 #utilities li {
+    width: 25%;
+    //height: 100%;
     float: left;
     position: relative;
-    margin-left: 10px;
-    margin-top: 20px;
-    //display: inline-block;
-    display: block;
+    left: 10px;
+    bottom: 0px;
+    //margin-top: 20px;
 }
 
 #utilities li:first-child {
-    margin-right: 50px;
-    margin-top: 0;
+    left: 33px;
+    margin-top: 0px;
+    max-width: 250px;
 }
 
 #utilities a {
     text-decoration: none;
 }
-/*
-.shopping-cart {
-    background-image: url("/Users/tudejian/Documents/course/268/OrderCoffee/images/shoppingbag.png");
-    background-repeat: no-repeat;
-    //background-color: none; 
-}
-.utility-list li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-size: 1.4rem;
-}
 
-#utilities .signin-page>a {
-    display: inline-block;
-    position: static;
-    border-top: none;
-    border-bottom: none;
-}
-*/
 .icons {
     margin-top: 2px;
-    height: 36px;
-    width: 36px;
+    height: 30px;
+    width: 30px;
     //text-align: center;
     //vertical-align: bottom;
 }
 
 .icons-1 {
     margin-top: 2px;
-    height: 60px;
+    height: 55px;
     width: 50px;
     text-align: center;
 }
 
-#nav {
+#nav-top {
+    //position: relative;
+    width: 100%;
+    height: 100px;
     float: left;
     clear: none;
- //   margin-left: 26px;
- //   margin-top: 12px;
-    position: relative;
 }
 
-#nav a {
+#nav-top a {
     text-decoration: none;
 }
 
-#nav .nav_menu {
+#nav-top .nav_menu {
     margin-left: 0;
     height: auto;
     width: auto;
@@ -110,27 +110,34 @@ body {
     transition: all 250ms cubic-bezier(.42, 0, .58. 1);
 }
 
-#nav ul {
-    padding: 0;
+#nav-top ul {
+    width: 100%;
+    padding: 0px;
+    position: relative;
     background: none;
     overflow: hidden;
     margin-bottom: 0;
 }
 
-#nav li {
+
+#nav-top li {
+    width: 33%;
     position: relative;
     display: block;
 }
 
-#nav li {
+#nav-top li {
     //margin: 0 1px 0 0;
-    margin-left: 10px;
-    margin-right: 24px;
-    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
 }
 
-#nav li {
-    float: left;
+#nav-top li:nth-child(1) {
+    text-align: right;
+}
+#nav-top li:nth-child(2) {
+    text-align: center;
 }
 
 .loginbody {

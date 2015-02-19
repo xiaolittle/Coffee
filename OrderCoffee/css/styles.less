@@ -20,36 +20,23 @@ body {
     z-index: 1;
     display: block;
     top: 0px;
-    height: 100px;
+    height: 270px;
     width: 100%;
+    margin: auto;
     position: fixed;
-    border-bottom: 1px double #B29980;
 
     div {
-      height: 100%;
+      height: 80px;
       width: 100%;
-      background-color: black;
-    }
-
-    ul {
-      height: 100px;
+      line-height: 80px;
+      background-color: white;
+      color: black;
+      text-align: center;
       font-family: 'Papyrus';
-      li {
-        position: absolute;
-        height: 120px;
-        display: inline;
-        line-height: 100px;
-        font-size: 35px;
-        font-style:italic;
-      }
-      
-      #title-coffe{
-        left: 110px;
-      }
-      #title-price{
-        right: 0px;
-        width: 150px;
-      }
+      font-size: 35px;
+    }
+    div.menu-banner {
+      height: 180px;
     }
   }
   
@@ -79,6 +66,122 @@ body {
     -webkit-padding-start: 0px;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
+  }
+
+  div.banner {
+    background-image: url("../images/coffee-banner.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding-top: 10px;
+    height: 200px;
+  }
+
+  div.menu-banner {
+    background-image: url("../images/coffee-banner-4.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding-top: 10px;
+    height: 200px;
+  }
+
+  div.home-grid section{
+    color: black;
+    a {
+      color: black;
+    }
+
+    &.grid {
+      position: relative;
+      text-align: left; 
+      width: 100%;
+      color: black;
+    }
+
+    &.utilities {
+      height: 50px;
+      background: white;
+
+      ul {
+        height: 50px;
+        width: 100%;
+        border-left: 0px;
+        border-bottom: 1px solid black;
+
+        li {
+          width: 25%;
+          float: left;
+          left: 10px;
+
+          &:first-child {
+            position: relative;
+            left: 33px;
+            bottom: 10px;
+          }
+        }
+      }
+
+      img.icons {
+        margin-top: 2px;
+        height: 30px;
+        width: 30px;
+      }
+      img.icon-logo {
+        height: 55px;
+        width: 50px;
+        text-align: center;
+      }
+    }
+
+    &.nav-top {
+      width: 100%;
+      height: 45px;
+      position: relative;
+
+      ul {
+        width: 100%;
+        height: 35px;
+        margin-bottom: 0;
+        float: left;
+
+        li {
+          width: 33%;
+          height: 35px;
+          line-height: 35px;
+          float: left;
+
+          &:nth-child(1) {
+            text-align: right;
+          }
+          &:nth-child(2) {
+            text-align: center;
+          }
+        }
+      }
+    }
+    &.today-rec{
+      height: 500px;
+      div {
+        text-align: center;
+      }
+      div:first-child {
+        height: 66px;
+        line-height: 66px;
+      }
+    }
+    &.today-activity {
+    height: 300px;
+    text-align: center;
+    }
+  }
+
+  .photo-gallery {
+    height: 400px;
+  }
+
+
+  .photo-gallery img {
+    height: 385px;
+    width: 400px;
   }
 
   div.coffee-info section {
@@ -170,11 +273,15 @@ body {
 
   .menu {
     position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
     ul {
       position: relative;
       &.coffee-menu {
-        
-        top: 100px;
+        padding-top: 3px;
+        top: 270px;
+        max-width: 750px;
+        margin: auto;
       }
       li {
         margin: 5px;
@@ -259,33 +366,27 @@ body {
 @menuColorTextAndLines: #8b8f92;
 
 
-.is-menu {
+.coffee-menu {
   background-image: url("../images/coffee-bcg7.jpg");
   background-attachment: fixed;
+  //background-color: white;
 }
 
 .menu-list {
   
-  background:rgba(255,255,255,0.3);
-  
+  background:rgba(255,255,255,0.5);
   border: 1px solid #B29980;
   border-radius: 10px;
 }
 
 .is-menu-detail {
-        
-  ul.today-overview, li.nutrition-entry, section.today, section.coffee-order, p.coffee-summary{
+  
+  li.nutrition-entry, section.today, section.coffee-order, p.coffee-summary{
     border-bottom: 1px solid @detailColorTextAndLines;
   }
   
   &.today-details, nav {
     border-top: 1px solid @detailColorTextAndLines;
-  }
-
-  ul.today-overview {
-    li:nth-child(2), li:nth-child(4) {
-      color: @detailColorTextAndLines;
-    }
   }
 }
 

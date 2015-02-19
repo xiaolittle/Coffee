@@ -17,34 +17,23 @@ body header {
   z-index: 1;
   display: block;
   top: 0px;
-  height: 100px;
+  height: 270px;
   width: 100%;
+  margin: auto;
   position: fixed;
-  border-bottom: 1px double #B29980;
 }
 body header div {
-  height: 100%;
+  height: 80px;
   width: 100%;
-  background-color: black;
-}
-body header ul {
-  height: 100px;
+  line-height: 80px;
+  background-color: white;
+  color: black;
+  text-align: center;
   font-family: 'Papyrus';
-}
-body header ul li {
-  position: absolute;
-  height: 120px;
-  display: inline;
-  line-height: 100px;
   font-size: 35px;
-  font-style: italic;
 }
-body header ul #title-coffe {
-  left: 110px;
-}
-body header ul #title-price {
-  right: 0px;
-  width: 150px;
+body header div.menu-banner {
+  height: 180px;
 }
 body h1,
 body h2 {
@@ -69,6 +58,106 @@ body ul {
   -webkit-padding-start: 0px;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
+}
+body div.banner {
+  background-image: url("../images/coffee-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10px;
+  height: 200px;
+}
+body div.menu-banner {
+  background-image: url("../images/coffee-banner-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10px;
+  height: 200px;
+}
+body div.home-grid section {
+  color: black;
+}
+body div.home-grid section a {
+  color: black;
+}
+body div.home-grid section.grid {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  color: black;
+}
+body div.home-grid section.utilities {
+  height: 50px;
+  background: white;
+}
+body div.home-grid section.utilities ul {
+  height: 50px;
+  width: 100%;
+  border-left: 0px;
+  border-bottom: 1px solid black;
+}
+body div.home-grid section.utilities ul li {
+  width: 25%;
+  float: left;
+  left: 10px;
+}
+body div.home-grid section.utilities ul li:first-child {
+  position: relative;
+  left: 33px;
+  bottom: 10px;
+}
+body div.home-grid section.utilities img.icons {
+  margin-top: 2px;
+  height: 30px;
+  width: 30px;
+}
+body div.home-grid section.utilities img.icon-logo {
+  height: 55px;
+  width: 50px;
+  text-align: center;
+}
+body div.home-grid section.nav-top {
+  width: 100%;
+  height: 45px;
+  position: relative;
+}
+body div.home-grid section.nav-top ul {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 0;
+  float: left;
+}
+body div.home-grid section.nav-top ul li {
+  width: 33%;
+  height: 35px;
+  line-height: 35px;
+  float: left;
+}
+body div.home-grid section.nav-top ul li:nth-child(1) {
+  text-align: right;
+}
+body div.home-grid section.nav-top ul li:nth-child(2) {
+  text-align: center;
+}
+body div.home-grid section.today-rec {
+  height: 500px;
+}
+body div.home-grid section.today-rec div {
+  text-align: center;
+}
+body div.home-grid section.today-rec div:first-child {
+  height: 66px;
+  line-height: 66px;
+}
+body div.home-grid section.today-activity {
+  height: 300px;
+  text-align: center;
+}
+body .photo-gallery {
+  height: 400px;
+}
+body .photo-gallery img {
+  height: 385px;
+  width: 400px;
 }
 body div.coffee-info section {
   background-color: white;
@@ -154,12 +243,17 @@ body div.coffee-info section.coffee-details p.intro-title {
 }
 body .menu {
   position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 body .menu ul {
   position: relative;
 }
 body .menu ul.coffee-menu {
-  top: 100px;
+  padding-top: 3px;
+  top: 270px;
+  max-width: 750px;
+  margin: auto;
 }
 body .menu ul li {
   margin: 5px;
@@ -216,16 +310,15 @@ body .menu ul li ul li:nth-child(3) table td {
 /*
  * Color for the Menu Page
  */
-.is-menu {
+.coffee-menu {
   background-image: url("../images/coffee-bcg7.jpg");
   background-attachment: fixed;
 }
 .menu-list {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.5);
   border: 1px solid #B29980;
   border-radius: 10px;
 }
-.is-menu-detail ul.today-overview,
 .is-menu-detail li.nutrition-entry,
 .is-menu-detail section.today,
 .is-menu-detail section.coffee-order,
@@ -235,10 +328,6 @@ body .menu ul li ul li:nth-child(3) table td {
 .is-menu-detail.today-details,
 .is-menu-detail nav {
   border-top: 1px solid #b6c0c9;
-}
-.is-menu-detail ul.today-overview li:nth-child(2),
-.is-menu-detail ul.today-overview li:nth-child(4) {
-  color: #b6c0c9;
 }
 nav {
   position: fixed;

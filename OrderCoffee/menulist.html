@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimal-ui">
   </head>
   <body class = "is-menu">
+    <script type="text/x-handlebars" data-template-name="menu">
     <div class="menu">
       <header>
         <a href="index.html">
@@ -14,279 +15,59 @@
         <div>-------MENU-------</div>
       </header>
       <ul class = "coffee-menu">
-        <li class = "menu-list">
-          <a href="menudetail.html">
-            <ul>
-              <li>
-                <div class= "coffee-img">
-                  <img src="images/coffee-icon.png">
-                </div>
-              </li>
-              <li>
-                <div class="coffee-name">Espresso</div>
-                <div class="italy-name">Espresso</div>
-              </li>
-              <li>
-                <table class = "coffee-price">
-                  <tr class = "price-entry">
-                    <td>Tall</td>
-                    <td>.........</td>
-                    <td>$3.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Grande</td>
-                    <td>.........</td>
-                    <td>$4.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Venti</td>
-                    <td>.........</td>
-                    <td>$5.26</td>
-                  </tr>
-                </table>
-              </li>
-            </ul>
-          </a>
-        </li>
-        <li class = "menu-list">
-          <a href="menudetail.html">
-            <ul>
-              <li>
-                <div class= "coffee-img">
-                  <img src="images/coffee-icon.png">
-                </div>
-              </li>
-              <li>
-                <div class="coffee-name">Double Espresso</div>
-                <div class="italy-name">Doppio Espresso</div>
-              </li>
-              <li>
-                <table class = "coffee-price">
-                  <tr class = "price-entry">
-                    <td>Tall</td>
-                    <td>.........</td>
-                    <td>$3.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Grande</td>
-                    <td>.........</td>
-                    <td>$4.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Venti</td>
-                    <td>.........</td>
-                    <td>$5.26</td>
-                  </tr>
-                </table>
-              </li>
-            </ul>
-          </a>
-        </li>
-        <li class = "menu-list">
-          <a href="menudetail.html">
-            <ul>
-              <li>
-                <div class= "coffee-img">
-                  <img src="images/coffee-icon.png">
-                </div>
-              </li>
-              <li>
-                <div class="coffee-name">Mocha</div>
-                <div class="italy-name">Moca</div>
-              </li>
-              <li>
-                <table class = "coffee-price">
-                  <tr class = "price-entry">
-                    <td>Tall</td>
-                    <td>.........</td>
-                    <td>$3.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Grande</td>
-                    <td>.........</td>
-                    <td>$4.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Venti</td>
-                    <td>.........</td>
-                    <td>$5.26</td>
-                  </tr>
-                </table>
-              </li>
-            </ul>
-          </a>
-        </li>
-        <li class = "menu-list">
+        {{#each food in model}}
+          <li class = "menu-list">
             <a href="menudetail.html">
               <ul>
-              <li>
-                <div class= "coffee-img">
-                  <img src="images/coffee-icon.png">
-                </div>
-              </li>
                 <li>
-                  <div class="coffee-name">Caffè Latte</div>
-                  <div class="italy-name">Latte Macchiato</div>
+                  <div class= "coffee-img">
+                    <img src="images/coffee-icon.png">
+                  </div>
                 </li>
-              <li>
-                <table class = "coffee-price">
-                  <tr class = "price-entry">
-                    <td>Tall</td>
-                    <td>.........</td>
-                    <td>$3.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Grande</td>
-                    <td>.........</td>
-                    <td>$4.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Venti</td>
-                    <td>.........</td>
-                    <td>$5.26</td>
-                  </tr>
-                </table>
-              </li>
-            </ul>
-          </a>
-        </li>
-        <li class = "menu-list">
-            <a href="menudetail.html">
-              <ul>
-              <li>
-                <div class= "coffee-img">
-                  <img src="images/coffee-icon.png">
-                </div>
-              </li>
                 <li>
-                  <div class="coffee-name">Cappuccino</div>
-                  <div class="italy-name">Cappuccino</div>
+                  <div class="coffee-name">{{food.name}}</div>
+                  <div class="italy-name">{{food.name}}</div>
                 </li>
-              <li>
-                <table class = "coffee-price">
-                  <tr class = "price-entry">
-                    <td>Tall</td>
-                    <td>.........</td>
-                    <td>$3.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Grande</td>
-                    <td>.........</td>
-                    <td>$4.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Venti</td>
-                    <td>.........</td>
-                    <td>$5.26</td>
-                  </tr>
-                </table>
-              </li>
-            </ul>
-          </a>
-        </li>
-        <li class = "menu-list">
-            <a href="menudetail.html">
-              <ul>
-              <li>
-                <div class= "coffee-img">
-                  <img src="images/coffee-icon.png">
-                </div>
-              </li>
                 <li>
-                  <div class="coffee-name">Caffè Americano</div>
-                  <div class="italy-name">Americano</div>
+                  <table class = "coffee-price">
+                    <tr class = "price-entry">
+                      <td>Tall</td>
+                      <td>.........</td>
+                      <td>$3.26
+                      </td>
+                    </tr>
+                    <tr class = "price-entry">
+                      <td>Grande</td>
+                      <td>.........</td>
+                      <td>$4.26</td>
+                    </tr>
+                    <tr class = "price-entry">
+                      <td>Venti</td>
+                      <td>.........</td>
+                      <td>$5.26</td>
+                    </tr>
+                  </table>
                 </li>
-              <li>
-                <table class = "coffee-price">
-                  <tr class = "price-entry">
-                    <td>Tall</td>
-                    <td>.........</td>
-                    <td>$3.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Grande</td>
-                    <td>.........</td>
-                    <td>$4.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Venti</td>
-                    <td>.........</td>
-                    <td>$5.26</td>
-                  </tr>
-                </table>
-              </li>
-            </ul>
-          </a>
-        </li>
-        <li class = "menu-list">
-            <a href="menudetail.html">
-              <ul>
-              <li>
-                <div class= "coffee-img">
-                  <img src="images/coffee-icon.png">
-                </div>
-              </li>
-                <li>
-                  <div class="coffee-name">Frappuccino</div>
-                  <div class="italy-name">Frappuccino</div>
-                </li>
-              <li>
-                <table class = "coffee-price">
-                  <tr class = "price-entry">
-                    <td>Tall</td>
-                    <td>.........</td>
-                    <td>$3.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Grande</td>
-                    <td>.........</td>
-                    <td>$4.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Venti</td>
-                    <td>.........</td>
-                    <td>$5.26</td>
-                  </tr>
-                </table>
-              </li>
-            </ul>
-          </a>
-        </li>
-        <li class = "menu-list">
-            <a href="menudetail.html">
-              <ul>
-              <li>
-                <div class= "coffee-img">
-                  <img src="images/coffee-icon.png">
-                </div>
-              </li>
-                <li>
-                  <div class="coffee-name">Iced Coffee</div>
-                  <div class="italy-name">Iced Coffee</div>
-                </li>
-              <li>
-                <table class = "coffee-price">
-                  <tr class = "price-entry">
-                    <td>Tall</td>
-                    <td>.........</td>
-                    <td>$3.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Grande</td>
-                    <td>.........</td>
-                    <td>$4.26</td>
-                  </tr>
-                  <tr class = "price-entry">
-                    <td>Venti</td>
-                    <td>.........</td>
-                    <td>$5.26</td>
-                  </tr>
-                </table>
-              </li>
-            </ul>
-          </a>
-        </li>
+              </ul>
+            </a>
+          </li>
+        {{/each}}
       </ul>
+      <footer>
+          <div class = "subtotal">
+            <span>Subtotal:</span><span class = "total-price"></span>
+          </div>
+      </footer>
     </div>
+    </script>
+
+    <script src="js/libs/jquery-1.11.2.min.js"></script>
+    <script src="js/libs/handlebars-v1.3.0.js"></script>
+    <script src="js/libs/ember.js"></script>
+    <script src="js/libs/ember-data.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/models/coffeemodel.js"></script>
   </body>
 </html>

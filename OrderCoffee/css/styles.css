@@ -229,7 +229,7 @@ body div.coffee-info section.coffee-order img {
 body div.coffee-info section.coffee-details {
   position: relative;
   width: 100%;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 body div.coffee-info section.coffee-details p {
   margin: 0px;
@@ -250,7 +250,7 @@ body .menu ul {
   position: relative;
 }
 body .menu ul.coffee-menu {
-  padding-top: 3px;
+  padding-top: 1px;
   top: 270px;
   max-width: 750px;
   margin: auto;
@@ -279,7 +279,7 @@ body .menu ul li ul li:nth-child(1) div {
 }
 body .menu ul li ul li:nth-child(2) {
   left: 88px;
-  right: 150px;
+  right: 180px;
 }
 body .menu ul li ul li:nth-child(2) div {
   padding-left: 16px;
@@ -295,7 +295,7 @@ body .menu ul li ul li:nth-child(2) div.italy-name {
 body .menu ul li ul li:nth-child(3) {
   top: 8px;
   right: 0px;
-  width: 150px;
+  width: 180px;
   line-height: 100px;
   font-size: 65px;
   font-family: 'HelveticaNeue-UltraLight', Helvetica, Arial, Sans-Serif;
@@ -306,6 +306,11 @@ body .menu ul li ul li:nth-child(3) table {
 }
 body .menu ul li ul li:nth-child(3) table td {
   width: 33%;
+}
+
+body .menu ul li ul li:nth-child(3) table td:nth-child(1) {
+  width: 40%;
+  line-height: 26px;
 }
 
 .price-entry td:before {
@@ -319,6 +324,7 @@ body .menu ul li ul li:nth-child(3) table td {
   background-image: url("../images/coffee-bcg7.jpg");
   background-attachment: fixed;
   padding-bottom: 70px;
+  border-radius: 10px;
 }
 .menu-list {
   background: rgba(255, 255, 255, 0.5);
@@ -329,7 +335,7 @@ body footer {
   z-index: 1;
   display: block;
   bottom: 0px;
-  height: 70px;
+  height: 60px;
   width: 100%;
   margin: auto;
   position: fixed;
@@ -337,12 +343,12 @@ body footer {
 body footer div {
   height: 80px;
   width: 100%;
-  line-height: 80px;
+  line-height: 60px;
   background-color: white;
   color: black;
   text-align: center;
   font-family: 'Papyrus';
-  font-size: 35px;
+  font-size: 30px;
 }
 
 /* Begin menudetail page */

@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'coffee',
+    modulePrefix: 'ember-coffee',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

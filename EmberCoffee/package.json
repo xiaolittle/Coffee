@@ -1,7 +1,7 @@
 {
-  "name": "coffee",
+  "name": "ember-coffee",
   "version": "0.0.0",
-  "description": "Small description for coffee goes here",
+  "description": "Small description for ember-coffee goes here",
   "private": true,
   "directories": {
     "doc": "doc",

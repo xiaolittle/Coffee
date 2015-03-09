@@ -1,0 +1,52 @@
+   <div class="menu">
+      <header>
+        <a href="index.html">
+          <div class = "menu-banner"></div>
+        </a>
+        <div>-------MENU-------</div>
+      </header>
+      <ul class = "coffee-menu">
+        {{#each food in model}}
+          <li class = "menu-list">
+            <a href="menudetail.html">
+              <ul>
+                <li>
+                  <div class= "coffee-img">
+                    <img src="images/coffee-icon.png">
+                  </div>
+                </li>
+                <li>
+                  <div class="coffee-name">{{food.name}}</div>
+                  <div class="italy-name">{{food.name}}</div>
+                </li>
+                <li>
+                  <table class = "coffee-price">
+                    <tr class = "price-entry">
+                      <td><input type = "checkbox">Tall</td>
+                      <td>.........</td>
+                      <td>$3.26
+                      </td>
+                    </tr>
+                    <tr class = "price-entry">
+                      <td><input type = "checkbox">Grande</td>
+                      <td>.........</td>
+                      <td>$4.26</td>
+                    </tr>
+                    <tr class = "price-entry">
+                      <td><input type = "checkbox">Venti</td>
+                      <td>.........</td>
+                      <td>$5.26</td>
+                    </tr>
+                  </table>
+                </li>
+              </ul>
+            </a>
+          </li>
+        {{/each}}
+      </ul>
+      <footer>
+          <div class = "subtotal">
+            <span>Subtotal:</span><span class = "total-price"></span>
+          </div>
+      </footer>
+    </div>

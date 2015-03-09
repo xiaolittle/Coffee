@@ -1,9 +1,20 @@
 Menu.Food = DS.Model.extend({
+  id: DS.attr('number'),
   name: DS.attr('string'),
   price: DS.attr('number'),
+  size: DS.attr('string'),
   isLarge: DS.attr('boolean'),
   isGrande: DS.attr('boolean'),
-  isVenti: DS.attr('boolean')
+  isVenti: DS.attr('boolean'),
+  fullPrice: function() {
+    if(this.get('size') == 1) {
+      return this.get('price');
+    } else if(this.get('size') == 2) {
+      return this.get('price') + 1;
+    } else {
+      return this.get('price') + 2;
+    }
+  }.property('price', 'size')
 });
 
 

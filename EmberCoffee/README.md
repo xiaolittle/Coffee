@@ -10,7 +10,7 @@ Please use the following username and password:
 * password: 123
 or
 * username: ly
-*password: 123
+* password: 123
 
 ## Pages we have
 * indexpage(homepage)
@@ -18,10 +18,18 @@ or
 * menudetail
 * cart
 * login
+* map
 * contact
 * coffee
 
-## features and time
+## Functions we have
+* Index page with a slide.This slide uses a plugin called flexslider, we use ember component to do this.
+* Menu page. We can select coffee.
+* Cart page. We can change the amount of each item. Calculate the subtotal.
+* Login page. Using fixture data to login
+* Map. Using santa clara university location and call google map api.
+
+## Technologys and time
 * html5: 5 hours
 * css: 15 hours
 * javascript: 20 hours

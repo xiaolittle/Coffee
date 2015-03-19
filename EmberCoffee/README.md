@@ -1,7 +1,39 @@
-# Ember-coffee
+# Coffee-shop
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
+
+## Username and Password
+We use fixture data right now.
+Please use the following username and password:
+* username: hy
+* password: 123
+or
+* username: ly
+*password: 123
+
+## Pages we have
+* indexpage(homepage)
+* menu
+* menudetail
+* cart
+* login
+* contact
+* coffee
+
+## features and time
+* html5: 5 hours
+* css: 15 hours
+* javascript: 20 hours
+* ember or ember-cli
+    * ember data: > 20 hours
+    * ember model: > 10 hours
+    * ember controller: > 20 hours
+    * ember templates: > 10 hours
+    * ember components: > 5 hours
+    * ember routes: > 5 hours
+* github: 2 hours
+
 
 ## Prerequisites
 

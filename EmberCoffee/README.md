@@ -8,7 +8,7 @@ We use fixture data right now.
 Please use the following username and password:
 * username: hy
 * password: 123
-or
+<br> or <br>
 * username: ly
 * password: 123
 

@@ -12,6 +12,13 @@ Please use the following username and password:
 * username: ly
 * password: 123
 
+## How to use
+In the Menu page clike the cup icon can enter the menu-detail page.
+Click the "+" can select that item. <br>
+Click the "cart()" can go to the cart page.<br>
+In the cart page, click "-" or "+" to change the quantity.
+
+
 ## Pages we have
 * indexpage(homepage)
 * menu

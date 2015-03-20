@@ -14,10 +14,13 @@ Please use the following username and password:
 
 ## How to use
 In the Menu page,click the cup icon can enter the menu-detail page.<br>
-![menudetail](https://github.com/xiaolittle/Coffee/blob/master/EmberCoffee/public/images/menudetail.png)
+![menudetail](https://github.com/xiaolittle/Coffee/blob/master/EmberCoffee/public/images/menudetail.png)<br>
 Click the "+" can select that item. <br>
+![item](https://github.com/xiaolittle/Coffee/blob/master/EmberCoffee/public/images/selectitem.png)<br>
 Click the "cart()" can go to the cart page.<br>
+![cart](https://github.com/xiaolittle/Coffee/blob/master/EmberCoffee/public/images/entercart.png)<br>
 In the cart page, click "-" or "+" to change the quantity.
+![change](https://github.com/xiaolittle/Coffee/blob/master/EmberCoffee/public/images/changequantity.png)<br>
 
 
 ## Pages we have
